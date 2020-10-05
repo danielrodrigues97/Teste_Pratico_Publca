@@ -8,21 +8,27 @@ Defini 3 funções, as quais possuem os nomes limpar, consultar e inserir.
 
 Na função inserir, é a função que detém a interatividade com o usuário. Onde nessa função será requisitado ao usuário para que entre com os valores do Placar, o Mínimo da temporada e o Máximo da temporada.
 
-<div class>
-placar = int (input('insira o placar do jogo: '))
-minimo = int (input('insira o mínimo da temporada: '))
-maximo = int (input('insira o máximo da temporada: '))
-</div>
-
-Todavia, o valor que é armazenado na variável Placar, passar por um teste condicional, para verificar se o valor digitado pelo usuário é menor que 1000 (mil), entretanto, se o valor digitado pelo usuário for maior que mil o programa é encerrado. 
-
 <div>
-if placar > 1000 or placar < 0:
-        print('\n\tPlacar não deve ser maior que 1000 ou menor que 0!',)
-        print('\tPlacar pode ser igual a 0!\n')
-        sys.exit()
+<p>
+placar = int (input('insira o placar do jogo: '))<br>
+minimo = int (input('insira o mínimo da temporada: '))<br>
+maximo = int (input('insira o máximo da temporada: '))<br>
+</p>
 </div>
-
+<br>
+<p>
+Todavia, o valor que é armazenado na variável Placar, passar por um teste condicional, para verificar se o valor digitado pelo usuário é menor que 1000 (mil), entretanto, se o valor digitado pelo usuário for maior que mil o programa é encerrado. 
+</p>
+<div>
+<br>
+<p>
+if placar > 1000 or placar < 0:<br>
+        print('\n\tPlacar não deve ser maior que 1000 ou menor que 0!',)<br>
+        print('\tPlacar pode ser igual a 0!\n')<br>
+        sys.exit()<br>
+</p>
+</div>
+<br>
 Após os dados serem inseridos, são realizadas algumas condições, onde se tem comparações dos valores digitados pelo usuário, e se realiza por meio de condições uma verificação para saber se os dados digitados podem ser inseridos. 
 
 <div>
