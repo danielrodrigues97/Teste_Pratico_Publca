@@ -41,14 +41,17 @@ if maximo == minimo and placar == minimo:<br>
             else:<br>
                 auxmin = 0 <br> 
 
+<br>
 </div>
-
 Após os valores terem passado pelas condições, eles são gravados em um arquivo de texto (tabela_jogo.txt), onde se pode inserir mais dados nesse arquivo de texto, ou apagar todos os dados nesse arquivo por meio da função limpar, ou realizar uma consulta dos dados por meio da função consulta. 
 Neste programa a função consulta, retorna os dados que existem no arquivo de texto, é realizado uma varredura no arquivo de texto e os dados são expostos na tela. 
 
 Já a função limpar, apaga todos os dados que existe no arquivo de texto, e também apaga todos os valores que existe nas listas (reqMax e reqMin) e na variável. 
-
 <div>
+<br>
+
+<dev>
+<p>
 def limpar ():<br>
     with open('tabela_jogos.txt', 'w') as arquivo: <br>
         arquivo.close<br>
@@ -56,14 +59,19 @@ def limpar ():<br>
     cont = 0 <br>
     reqMax.clear()<br>
     reqMin.clear()<br>
+<p>
 </div>
-
+<br>
+<p>
 Também foi construído um monitor de opções, onde o usuário poderá digitar um número que aparece nas opções, e por meio desse número digitado é feita uma verificação por meio de uma condição, e irá executar a solicitação pedida pelo usuário por meio do número digitado. 
-
+<p>
+<br>
 <div>
+<p>
 print('~'*30)<br>
     print('Para Inserir dados do jogo aperte [1]: ')<br>
     print('Para consultar dados dos jogos aperte [2]: ')<br>
     print('para limpar a tabela de jogos aperte [3]')<br>
     print('Para Sair do programa aperte [4]: ')<br>
+<p>
 </div>    
