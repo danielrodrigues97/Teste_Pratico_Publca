@@ -8,11 +8,14 @@ Defini 3 funções, as quais possuem os nomes limpar, consultar e inserir.
 
 Na função inserir, é a função que detém a interatividade com o usuário. Onde nessa função será requisitado ao usuário para que entre com os valores do Placar, o Mínimo da temporada e o Máximo da temporada.
 
+
 placar = int (input('insira o placar do jogo: '))
 minimo = int (input('insira o mínimo da temporada: '))
 maximo = int (input('insira o máximo da temporada: '))
 
+
 Todavia, o valor que é armazenado na variável Placar, passar por um teste condicional, para verificar se o valor digitado pelo usuário é menor que 1000 (mil), entretanto, se o valor digitado pelo usuário for maior que mil o programa é encerrado. 
+
 
 if placar > 1000 or placar < 0:
         print('\n\tPlacar não deve ser maior que 1000 ou menor que 0!',)
@@ -59,3 +62,4 @@ print('~'*30)
     print('Para consultar dados dos jogos aperte [2]: ')
     print('para limpar a tabela de jogos aperte [3]')
     print('Para Sair do programa aperte [4]: ')
+    
