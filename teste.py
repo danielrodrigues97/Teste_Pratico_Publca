@@ -6,7 +6,7 @@ cont = 0
 
 
 def limpar ():
-    l = 0
+
     with open('tabela_jogos.txt', 'w') as arquivo: 
         arquivo.close
     global cont 
