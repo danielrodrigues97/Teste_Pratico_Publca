@@ -58,3 +58,4 @@ print('~'*30)
     print('Para consultar dados dos jogos aperte [2]: ')
     print('para limpar a tabela de jogos aperte [3]')
     print('Para Sair do programa aperte [4]: ')
+    
