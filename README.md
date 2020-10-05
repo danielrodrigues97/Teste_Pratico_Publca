@@ -38,6 +38,7 @@ if maximo == minimo and placar == minimo:
             else:
                 auxmin = 0 
 
+
 Após os valores terem passado pelas condições, eles são gravados em um arquivo de texto (tabela_jogo.txt), onde se pode inserir mais dados nesse arquivo de texto, ou apagar todos os dados nesse arquivo por meio da função limpar, ou realizar uma consulta dos dados por meio da função consulta. 
 Neste programa a função consulta, retorna os dados que existem no arquivo de texto, é realizado uma varredura no arquivo de texto e os dados são expostos na tela. 
 
