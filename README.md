@@ -47,11 +47,17 @@ Neste programa a função consulta, retorna os dados que existem no arquivo de t
 Já a função limpar, apaga todos os dados que existe no arquivo de texto, e também apaga todos os valores que existe nas listas (reqMax e reqMin) e na variável. 
 
 <p>def limpar ():
-    with open('tabela_jogos.txt', 'w') as arquivo: 
+<br>
+    with open('tabela_jogos.txt', 'w') as arquivo:
+    <br> 
         arquivo.close
-    global cont 
+        <br>
+    global cont
+    <br> 
     cont = 0
+    <br>
     reqMax.clear()
+    <br>
     reqMin.clear()
 </p>
 Também foi construído um monitor de opções, onde o usuário poderá digitar um número que aparece nas opções, e por meio desse número digitado é feita uma verificação por meio de uma condição, e irá executar a solicitação pedida pelo usuário por meio do número digitado. 
