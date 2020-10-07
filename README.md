@@ -3,7 +3,7 @@ Program de Formação de Talentos Pública Tecnologia
 
 
 1- Para rodar esse código, você precisa ter uma IDE contendo python ou você pode utilizar o Visual Code. 
-2- Coloque tudo em uma pasta e importe no Visual Code. 
+2- Realize o download deste código e exporte para sua IDE ou visual code. 
 3- Mande rodar o código
 
 explicação do Código: 
